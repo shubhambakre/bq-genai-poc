@@ -1,5 +1,7 @@
 """LLM Logic module for Text-to-SQL using LangChain and Google Gemini."""
 
+from __future__ import annotations
+
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_community.utilities import SQLDatabase

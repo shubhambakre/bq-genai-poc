@@ -1,5 +1,7 @@
 """BigQuery Client module for handling connections to Google BigQuery."""
 
+from __future__ import annotations
+
 import os
 from google.cloud import bigquery
 from google.oauth2 import service_account
